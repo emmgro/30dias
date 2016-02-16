@@ -71,23 +71,6 @@
       					         'fallback_cb' => ''                             // fallback function (if there is one)
   						)); ?>
 
-                                      <ul class="nav" >
-                                      <li>
-                                          <a href="#"><i class="fa fa-facebook"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-twitter"></i></a>
-                                      </li>
-                                      <li>
-                                          <a href="#"><i class="fa fa-dot-circle-o"></i></a>
-                                      </li>
-                                    </ul>
-
-                                    <div class="nav-info" >
-                                        <p>Dirección General: Elma Laura Ahumada</p>
-                                        <a href="mailto:elmalaura@yahoo.com">elmalaura@yahoo.com</a>
-                                    </div>
-
 					</nav>
 
 				</div>
@@ -105,6 +88,25 @@
                       ?>
 
                       <?php wp_nav_menu( $args ); ?>
+
+                      <nav class="site-nav-second pull-right">
+                          <ul class="nav" >
+                                <li>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa fa-dot-circle-o"></i></a>
+                                </li>
+                          </ul>
+
+                          <div class="nav-info" >
+                                <p>Dirección General: Elma Laura Ahumada</p>
+                                <a href="mailto:elmalaura@yahoo.com">elmalaura@yahoo.com</a>
+                          </div>
+                      </nav>
 
                   </nav>
 
